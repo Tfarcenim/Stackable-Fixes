@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.stackablefixes.mixin",
   "compatibilityLevel": "JAVA_16",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "stackablefixes.refmap.json",
   "mixins": [
+    "BucketItemMixin",
+    "ItemAccess"
   ],
-  "client":[
-    "ExampleMixin"
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
